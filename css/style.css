@@ -1,0 +1,14 @@
+;:root {
+    --background-color: rgb(200, 100, 100);
+    --border-coler: rgb(10, 100, 100);
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: [hd-start sd-start ft-start] 1fr [sd-end main] 3fr [hd-end main-end ft-end];
+    grid-template-rows: [hd-start] 1fr [hd-end sd-start main-start] 1fr
+    border: 4px solid black;
+}
+
+.overlay {
+    background-color: rgba(92, 148, 13, 0,4);
+}
